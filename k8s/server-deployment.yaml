@@ -15,9 +15,5 @@ spec:
       containers:
       - name: server
         image: 1733116199/multi-server
-        resources:
-          limits:
-            memory: "32Mi"
-            cpu: "50m"
         ports:
         - containerPort: 5000
