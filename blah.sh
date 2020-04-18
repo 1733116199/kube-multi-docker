@@ -11,3 +11,4 @@ kubectl apply -f k8s/client-cluster-ip-service.yaml
 kubectl apply -f k8s/client-deployment.yaml
 kubectl apply -f k8s/server-cluster-ip-service.yaml                    
 kubectl apply -f k8s/server-deployment.yaml
+minikube ip
